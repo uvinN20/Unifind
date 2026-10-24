@@ -191,3 +191,13 @@ Both Dockerfiles automatically use `npm ci` once a `package-lock.json` exists. I
 - **Persistent data.** Database files and uploaded photos live in named volumes.
 - **Privacy.** Contact details of a reporter are only returned to the owner, admins, and a claimant whose claim was approved.
 - **Non-root API container.** The backend image runs as the unprivileged `node` user.
+
+## 📸 Application screenshot
+
+### Report details and recovery status
+
+![UniFind lost-item report and claim status](docs/screenshots/unifind-report-details.jpg)
+
+*Report detail view showing the lost item, location, reporting date, recovery progress and the login-required claim workflow.*
+
+> This image was captured from a local development instance. A public live-demo URL has not been verified.
