@@ -192,7 +192,13 @@ Both Dockerfiles automatically use `npm ci` once a `package-lock.json` exists. I
 - **Privacy.** Contact details of a reporter are only returned to the owner, admins, and a claimant whose claim was approved.
 - **Non-root API container.** The backend image runs as the unprivileged `node` user.
 
-## 📸 Application screenshot
+## 📸 Application screenshots
+
+### Home — search lost and found items
+
+![UniFind campus lost-and-found homepage](docs/screenshots/unifind-home.jpg)
+
+*Browse recent campus reports, search for lost belongings and begin a new lost-or-found report.*
 
 ### Report details and recovery status
 
@@ -200,4 +206,4 @@ Both Dockerfiles automatically use `npm ci` once a `package-lock.json` exists. I
 
 *Report detail view showing the lost item, location, reporting date, recovery progress and the login-required claim workflow.*
 
-> This image was captured from a local development instance. A public live-demo URL has not been verified.
+> Screenshots were captured from local development; no public live demo is verified.
